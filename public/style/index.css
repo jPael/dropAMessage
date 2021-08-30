@@ -1,0 +1,44 @@
+:root {
+    --bodybackground: #242526;
+    --messageBackground: #2296ba;
+}
+
+* {
+    /* border: 1px solid black; */
+}
+
+body {
+    background-color: var(--bodybackground) !important;
+}
+
+#main-body-container {
+    min-height: 100vh !important;
+}
+
+#input-container {
+    border: 1px solid black;
+}
+
+#message-container {
+    background: linear-gradient(#f0a136, #ffffff);
+    min-height: 90vh;
+    overflow-x: hidden;
+    overflow-y: scroll !important;
+}
+#input-container {
+    min-height: 9vh;
+}
+
+.messages {
+    background-color: var(--messageBackground) !important;
+    color: white;
+}
+
+.subject {
+    /* border: 1px solid black; */
+    border-bottom: 1px solid grey;
+}
+/* .subject:after {
+    content: "";
+
+} */
