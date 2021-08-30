@@ -1,0 +1,15 @@
+{
+    "name": "dropamessage",
+    "version": "1.0.0",
+    "description": "it is a site where you can drop a message to someone anonymously",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server/index.js"
+    },
+    "keywords": [
+        "message"
+    ],
+    "author": "Jason Pael",
+    "license": "ISC"
+}
